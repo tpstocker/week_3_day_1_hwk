@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+        <title>CodeClan News</title>
+    </head>
+    
+    <nav>
+        <h1>CodeClan News</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="flex-container_2">
+            <div class="flex-container_1">
+                <h2 id="login">Login</h2>
+                <form>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="pword">Password:</label><br>
+                    <input type="text" id="pword" name="pword"><br>
+                    <input type="submit" value="Submit">
+                </form>
+
+                <h2>Catagories</h2>
+                    <ul><li><a href="#latest">Latest</a></li>
+                    <li><a href="#local">Local</a></li>
+                    <li><a href="#politics">Politics</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                </ul>
+            </div>
+
+            <div class="flex-container_3">
+                <h2>Latest</h2>
+                <h3>Breaking News</h3>
+                    <div class="picture_container_1">
+                        <img id="pic_1" src="./images/placeholder-image.png" alt="Blank Picture 1">
+                            <div class="headline_container_1">
+                            <h3>Story Headline<br></h3>
+                            <p>This is the first line of the article. The user would be able to click on the prieview to read more...</p>
+                            </div> 
+                    </div>
+                    <div class="picture_container_2">
+                        <img id="pic_2" src="./images/placeholder-image.png" alt="Blank Picture 2">
+                            <div class="headline_container_2">
+                            <h3>Story Headline<br></h3>
+                            <p>This is the first line of the article. The user would be able to click on the prieview to read more...</p>
+                            </div> 
+                    </div>
+                    <div class="picture_container_3">
+                        <img id="pic_3" src="./images/placeholder-image.png" alt="Blank Picture 3">
+                            <div class="headline_container_3">
+                            <h3>Story Headline<br></h3>
+                            <p>This is the first line of the article. The user would be able to click on the prieview to read more...</p>
+                            </div> 
+                    </div>
+            </div>
+            
+        </div>
+    </header>
+
+        <main id="main_article">
+            <h2>Main Article Headline</h2>
+            <h3><a id="author_name">Tom Stocker</a></h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+
+        <div id="comments"><h2>Comments</h2>
+            <form id="comment_box">
+                <label for="comments"></label><br>
+                <input type="text" id="comments" name="comments"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <hr>
+            <div id="user_review_box">
+                <img id="pic_4" src="./images/placeholder-avatar.png" alt="Blank Picture 4">
+                <h3>Username</h3>
+                <h3>Posted: 23/03/2020</h3>
+                <p>Wow, amazing read. Thank you.</p>
+                <hr>
+
+                <img id="pic_5" src="./images/placeholder-avatar.png" alt="Blank Picture 5">
+                <h3>Username</h3>
+                <h3>Posted: 25/05/2020</h3>
+                <p>I've read better in the children's bookshop. Terrible.</p>
+                <hr>
+
+                <img id="pic_6" src="./images/placeholder-avatar.png" alt="Blank Picture 6">
+                <h3>Username</h3>
+                <h3>Posted: 11/10/2021</h3>
+                <p>I'm not normally one for latin! But this was sa good read.</p>
+                <hr>
+
+            </div>
+        </main>
+
+    <footer>
+        <h3 id="footer">&#169; CodeClan News 2021</h3>
+    </footer>
+</body>
+</html>

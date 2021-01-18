@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #037ffc;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+nav a:link {
+    color: whitesmoke;
+}
+
+nav a:visited {
+    color:whitesmoke;
+}
+
+nav h1 {
+    float: left;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+}
+
+.flex-container_1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.flex-container_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container_3 {
+    padding-left: 20px;
+}
+
+.picture_container_1 {
+    display: flex;
+    padding: 10px;
+}
+
+#pic_1 {
+    width: 200px;
+}
+
+.headline_container_1 {
+    padding: 10px;
+}
+
+.picture_container_2 {
+    display: flex;
+    padding: 10px;
+}
+
+#pic_2 {
+    width: 200px;
+}
+
+.headline_container_2 {
+    padding: 10px;
+}
+
+.picture_container_3 {
+    display: flex;
+    padding: 10px;
+}
+
+#pic_3 {
+    width: 200px;
+}
+
+.headline_container_3 {
+    padding: 10px;
+}
+
+#main_article {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #037ffc;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+#comments input[type=text] {
+    width: 100%;
+    height: 200px;
+}
+
+#comments input[type=submit] {
+    float: right;
+}
+
+#comments {
+    padding-bottom: 20px;
+}
+
+#pic_4, #pic_5, #pic_6 {
+    width: 100px;
+}
